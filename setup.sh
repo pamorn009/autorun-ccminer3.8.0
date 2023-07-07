@@ -18,8 +18,8 @@ chmod +x run-miner
 apt-get install python3 -y
 apt-get install pip -y
 apt-get install wget -y
-python3 -m pip install progress
-python3 -m pip install requests
+apt-get install python3-progress
+apt-get install python3-requests
 
 
 mv mobile-mining ../../etc
