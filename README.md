@@ -1,9 +1,11 @@
 # AUTO RUN CCMINER IN TERMUX
-<a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-<br>
-## การติดตั้งแบบรวดเร็ว
+
+แตะจอค้าง เลือก more
+เลือก Keep screen on
+
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/pichetx/autorun-ccminer3.8.0 && cd autorun-ccminer3.8.0 && chmod +x setup.sh && sh setup.sh
+termux-setup-storage
+กดยอมรับ
 ```
 
 ## การติดตั้งตามขั้นตอน
