@@ -5,6 +5,7 @@
 
 ```
 termux-setup-storage
+...
 กดยอมรับ
 ```
 
