@@ -3,7 +3,7 @@
 <br>
 ## การติดตั้งแบบรวดเร็ว
 ```
-apt-get update -y && apt-get install git -y && git clone https://github.com/mantvmass/auto-run-ccminer && cd auto-run-ccminer && chmod +x setup.sh && sh setup.sh
+apt-get update -y && apt-get install git -y && git clone https://github.com/pichetx/autorun-ccminer3.8.0 && cd autorun-ccminer3.8.0 && chmod +x setup.sh && sh setup.sh
 ```
 
 ## การติดตั้งตามขั้นตอน
@@ -14,10 +14,10 @@ apt-get update -y
 apt-get install git -y
 ```
 ```
-git clone https://github.com/mantvmass/auto-run-ccminer
+git clone https://github.com/pichetx/autorun-ccminer3.8.0
 ```
 ```
-cd auto-run-ccminer
+cd autorun-ccminer3.8.0
 ```
 ```
 chmod +x setup.sh && sh setup.sh
@@ -31,14 +31,3 @@ chmod +x setup.sh && sh setup.sh
 * หากต้องการเปลี่ยน TAG ใช้คำสั่ง ```edit-miner```
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 * หากต้องการอัพเดทโปรแกรม ใช้คำสั่ง ```cd && cd ../etc/mobile-mining && python3 update.py && cd```
-
-## สนับสนุนนักพัฒนา
-- ชื่อ ```ภูมินท์ มะลิวรรณ```
-- กสิกรไทย ```0608905863```
-- พร้อมเพย์ ```0639723211```
-
-## ติดต่อ
-* [Facebook](https://www.facebook.com/PhuminMaliwan)
-* YouTube
-   * [MANTVMASS](https://www.youtube.com/channel/UCYJk0E1wwY3zX-i8tn95mhw)
-   * [MOBILE MINING](https://www.youtube.com/channel/UCevNnlKLgRTg-cku5JQ2Ahw) 
