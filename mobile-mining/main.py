@@ -110,6 +110,7 @@ def runOffline():
             loads = json.loads(load)
             pool = loads['pool']
             wallet = loads['wallet']
+            name = loads['name']
             password = loads['pass']
             cpu = loads['cpu']
         if pool == "" or wallet == "":
@@ -117,15 +118,16 @@ def runOffline():
             return
         print("\033[1;34;40m")   
         print("WALLET =",wallet)
+        print("name"  =",name)
         print("POOL   =",pool)
         print("CPU    =",cpu)
         print("PASS   =",password)
         print("\033[00m\n")
 
 
-        os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet} -p {password} -t {cpu}")
+        os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet}.{name} -p {password} -t {cpu}")
     except:
-        push = {'status': False,'pool': '','wallet': '','pass': '','cpu': ''}
+        push = {'status': False,'pool': '','wallet': '','name': '','pass': '','cpu': ''}
         with open("set-miner/offline.json", "w") as set:
             json.dump(push, set, indent=4)
         os.system("@cls||clear")
