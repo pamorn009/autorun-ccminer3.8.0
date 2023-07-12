@@ -95,9 +95,10 @@ def OffMiner():
         print("ตัวอย่าง: \033[93mstratum+tcp://ap.luckpool.net:3956\033[00m")
         pool = input("[-o]: ")
 
-        print("ตัวอย่าง: \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr.OMG\033[00m")
+        print("ตัวอย่าง: \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr\033[00m")
         wallet = input("[-u]: ")
 
+        print("ตัวอย่าง: \033[93mMiner01\033[00m")
         name = input("[-n]: ")
 
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
