@@ -1,11 +1,11 @@
 # AUTO RUN CCMINER IN TERMUX
 
-แตะจอค้าง เลือก more
-เลือก Keep screen on
+*แตะจอค้าง เลือก more
+*เลือก Keep screen on
 
 termux-setup-storage
 
-กดยอมรับ
+*กดยอมรับ
 
 
 
@@ -13,10 +13,10 @@ pkg install proot-distro -y && proot-distro install ubuntu && pkg install nano
 
 cd /data/data/com.termux/files/usr/etc && nano profile
 
-เพิ่มในบรรทัดสุดท้าย
+*เพิ่มในบรรทัดสุดท้าย
 proot-distro login ubuntu
 
-ปิด แล้วเปิด termux
+*ปิด แล้วเปิด termux
 
 ## การติดตั้งตามขั้นตอน
 ```
