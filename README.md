@@ -6,15 +6,18 @@
 ```
 termux-setup-storage
 
-```* กดยอมรับ
+```
+* กดยอมรับ
 
-
-
+```
 pkg install proot-distro -y && proot-distro install ubuntu && pkg install nano
 
+```
 cd /data/data/com.termux/files/usr/etc && nano profile
 
+```
 * เพิ่มในบรรทัดสุดท้าย
+```
 proot-distro login ubuntu
 
 * ปิด แล้วเปิด termux
