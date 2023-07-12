@@ -50,12 +50,14 @@ def OnMiner():
             loads = json.loads(load)
             pool = loads['pool']
             wallet = loads['wallet']
+            name = loads['name']
             password = loads['pass']
             cpu = loads['cpu']
         push = {
             'status': False,
             'pool': pool,
             'wallet': wallet,
+            'name': name,
             'pass': password,
             'cpu': cpu
             }
@@ -67,6 +69,7 @@ def OnMiner():
             'status': False,
             'pool': "",
             'wallet': "",
+            'name': "",
             'pass': "",
             'cpu': ""
         }
@@ -95,6 +98,8 @@ def OffMiner():
         print("ตัวอย่าง: \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr.OMG\033[00m")
         wallet = input("[-u]: ")
 
+        name = input("[-n]: ")
+
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
         password = input("[-p]: ")
 
@@ -116,6 +121,7 @@ def OffMiner():
         'status': True,
         'pool': pool,
         'wallet': wallet,
+        'name': name,
         'pass': password,
         'cpu': cpu
     }
