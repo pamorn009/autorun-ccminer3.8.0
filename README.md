@@ -3,7 +3,6 @@
 * แตะจอค้าง เลือก more
 * เลือก Keep screen on
 ...
-
 termux-setup-storage
 ...
 * กดยอมรับ
