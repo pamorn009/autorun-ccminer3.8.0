@@ -14,11 +14,11 @@ pkg install proot-distro -y && proot-distro install ubuntu && pkg install nano
 ```
 cd /data/data/com.termux/files/usr/etc && nano profile
 ```
-* เพิ่มในบรรทัดสุดท้าย
+* เลื่อนเคอร์เซอร์ลงไปล่างสุด ในบรรทัดสุดท้าย ใส่คำสั่ง
 ```
 proot-distro login ubuntu
 ```
-* ปิด แล้วเปิด termux
+* ctrl+x แล้วตอบ y เพื่อ save ปิด แล้วเปิด termux
 
 ## การติดตั้งตามขั้นตอน
 ```
@@ -36,9 +36,9 @@ cd autorun-ccminer3.8.0
 ```
 chmod +x setup.sh && sh setup.sh
 ```
-* หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น
+* หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกด้วยการ enter เลื่อนเคอร์เซอร์ขึ้นด้านบน ใส่คำสั่ง
 - ```run-miner```
-* แล้ว save
+* แล้ว ctrl+x ตอบ y เพื่อ save
 
 ## เพิ่มเติมการใช้โปรแกรม
 * หากต้องการหยุดขุดให้ใช้กด ```CTRL + C```
