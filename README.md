@@ -18,7 +18,8 @@ cd /data/data/com.termux/files/usr/etc && nano profile
 ```
 proot-distro login ubuntu
 ```
-* ctrl+x แล้วตอบ y เพื่อ save ปิด แล้วเปิด termux
+* ctrl+x แล้วตอบ y เพื่อ save
+* ปิด แล้วเปิด termux ใหม่อีกครั้ง
 
 ## การติดตั้งตามขั้นตอน
 ```
