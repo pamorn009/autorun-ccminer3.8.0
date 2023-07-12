@@ -118,7 +118,7 @@ def runOffline():
             return
         print("\033[1;34;40m")   
         print("WALLET =",wallet)
-        print("name"  =",name)
+        print("NAME   =",name)
         print("POOL   =",pool)
         print("CPU    =",cpu)
         print("PASS   =",password)
