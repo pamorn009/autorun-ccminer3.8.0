@@ -92,19 +92,19 @@ def OffMiner():
 
     banner()
     try:
-        print("ตัวอย่าง: \033[93mstratum+tcp://ap.luckpool.net:3956\033[00m")
+        print("ชื่อ pool เช่น \033[93mstratum+tcp://ap.luckpool.net:3956\033[00m")
         pool = input("[-o]: ")
 
-        print("ตัวอย่าง: \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr\033[00m")
+        print("เลขกระเป๋า เช่น \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr\033[00m")
         wallet = input("[-u]: ")
 
-        print("ตัวอย่าง: \033[93mMiner01(ชื่อเครื่องที่ต้องการ)\033[00m")
+        print("ชื่อคนงานขุด เช่น \033[93mMiner01\033[00m")
         name = input("[-n]: ")
 
-        print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
+        print("Password เช่น \033[93mx หรือ hybrid ( เฉพาะ luckpool )\033[00m")
         password = input("[-p]: ")
 
-        print(f"ตัวอย่าง: \033[93mค่าที่ใส่ได้คือ 0 ถึง {cpu_thread}\033[00m")
+        print(f"จำนวนthread \033[93mค่าที่ใส่ได้คือ 0 ถึง {cpu_thread}\033[00m")
         cpu = int(input("[-t]: "))
         
         if pool == "" or wallet == "":
