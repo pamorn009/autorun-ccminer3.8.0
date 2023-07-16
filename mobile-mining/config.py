@@ -26,8 +26,8 @@ def banner():
     print("\033[96m   ██╗██╔╝  ██╔══╝  ██╔══██╗██║   ██║╚════██║\033[00m")
     print("\033[96m    ███╔╝   ███████╗██║  ██║ ██████╔╝███████║\033[00m")
     print("\033[96m    ╚══╝    ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝\033[00m") 
-    print("\033[96mFILE OFFLINE by PICHET SAENGTAWAN\033[0m")
-    print("\033[96mDebug colors by leo645\033[0m")
+    print("\033[96mEDIT Setup File by PICHET SAENGTAWAN\033[0m")
+    print("\033[96mDebug Colors by leo645\033[0m")
     if active == "on":
         err = 0
         try:
