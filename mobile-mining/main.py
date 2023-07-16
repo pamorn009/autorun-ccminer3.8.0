@@ -121,11 +121,21 @@ def runOffline():
         print("NAME   =",name)
         print("POOL   =",pool)
         print("CPU    =",cpu)
-        print("PASS   =",password)
-        print("\033[00m\n")
+        if pool in zergpool:
 
+           print("PASS   = ",password +",ID="+name)
+           print("\033[00m\n")
 
-        os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet}.{name} -p {password} -t {cpu}")
+           time.sleep(2)
+           os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet}.{name} -p {password},ID={name} -t {cpu}")
+       
+        else:
+        	
+         print("PASS   =",password)
+         print("\033[00m\n")
+
+         time.sleep(2)
+         os.system(f"cd ccminer && ./ccminer -a verus -o {pool} -u {wallet}.{name} -p {password} -t {cpu}")
     except:
         push = {'status': False,'pool': '','wallet': '','name': '','pass': '','cpu': ''}
         with open("set-miner/offline.json", "w") as set:
