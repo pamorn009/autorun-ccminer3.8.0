@@ -164,22 +164,6 @@ def OffMiner():
 
 while True:
     banner()
-    print(f"  [ -- เมนู -- ]  \033[0;37;44mCPU = {cpu_thread}\033[0;37;40m")
-    print("  ")
-    print("  [1] Set Miner")
-    print("  [0] ออก")
-    try:
-        select = int(input(">>> "))
-        if select < 0:
-            raise Exception()
-        elif select > 2:
-            raise Exception()
-        elif select == 1:
-            OffMiner()
-        elif select == 1:
-            OffMiner()
-        elif select == 0:
-            break
-    except:
-        print("\nเลือก 0 - 1 เท่านั้น!")
-        time.sleep(3)
+    OffMiner()           
+    break
+
