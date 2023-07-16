@@ -109,10 +109,14 @@ def OffMiner():
         
         if pool == "" or wallet == "":
             raise Exception()
-        if password == "":
-            password = "x"
+        if name == "" or password == "":
+            raise Exception()
         if cpu == "":
-            cpu = 1
+            raise Exception()
+#        if password == "":
+#            password = "x"
+#        if cpu == "":
+#            cpu = 1
     except:
         os.system("@cls||clear")
         print("เกิดข้อผิดพลาดโปรดตั้งค่าใหม่!")
