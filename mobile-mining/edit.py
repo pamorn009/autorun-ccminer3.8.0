@@ -98,7 +98,7 @@ def OffMiner():
         print("ตัวอย่าง: \033[93mRKh6cinBtWFspyBfK6Xsu8JKJsFyfYmUCr\033[00m")
         wallet = input("[-u]: ")
 
-        print("ตัวอย่าง: \033[93mMiner01\033[00m")
+        print("ตัวอย่าง: \033[93mMiner01(ชื่อเครื่องที่ต้องการ)\033[00m")
         name = input("[-n]: ")
 
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
