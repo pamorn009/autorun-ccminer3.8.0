@@ -121,7 +121,7 @@ def OffMiner():
         os.system("@cls||clear")
         print("เกิดข้อผิดพลาดโปรดตั้งค่าใหม่!")
         time.sleep(3)
-        os.system("@cls||clear")
+        os.system("edit-miner")
 
     push = {
         'status': True,
