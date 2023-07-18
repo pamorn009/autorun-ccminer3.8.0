@@ -109,10 +109,12 @@ def OffMiner():
         
         if pool == "" or wallet == "":
             raise Exception()
-        if name == "" or password == "":
+        if name == "":
             raise Exception()
+        if password == "":
+            password = "x"
         if cpu == "":
-            raise Exception()
+            cpu = 1
 #        if password == "":
 #            password = "x"
 #        if cpu == "":
