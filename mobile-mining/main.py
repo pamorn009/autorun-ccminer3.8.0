@@ -8,11 +8,10 @@ from config import banner
 
 # check import module
 try:
-    from progress.spinner import MoonSpinner
+    from progress.bar import ShadyBar
 except ImportError:
     pip.main(['install', '--user', 'progress'])
-    from progress.spinner import MoonSpinner
-
+    from progress.bar import ShadyBar
 try:
     import requests
 except ImportError:
@@ -148,9 +147,9 @@ def runOffline():
 
 while True:
     os.system("@cls||clear")
-    with MoonSpinner("กำลังทำงาน...Start Mining") as bar:
+    with ShadyBar("\033[1;34;40mกำลังทำงาน...Start Mining\033[00m") as bar:
         for i in range(100):
-            time.sleep(0.05)
+            time.sleep(0.1)
             bar.next()
     if os.path.exists("ccminer") == False:
         install()
