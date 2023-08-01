@@ -147,7 +147,6 @@ def runOffline():
 
 while True:
     os.system("@cls||clear")
-    os.system("figlet -f big VERUS")
     with ShadyBar("\033[1;34;40m Start Mining\033[00m") as bar:
         for i in range(100):
             time.sleep(0.1)
