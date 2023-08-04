@@ -1,5 +1,7 @@
 # AUTO RUN CCMINER IN TERMUX
 
+https://youtu.be/KrQdrL5fzLo
+
 * แตะจอค้าง เลือก more
 * เลือก Keep screen on
 
