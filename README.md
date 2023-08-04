@@ -1,5 +1,6 @@
 # AUTO RUN CCMINER IN TERMUX
 
+คลิปvdo การติดตั้ง
 https://youtu.be/KrQdrL5fzLo
 
 * แตะจอค้าง เลือก more
