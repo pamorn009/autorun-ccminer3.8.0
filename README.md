@@ -32,7 +32,7 @@ apt-get update -y
 apt-get install git -y
 ```
 ```
-git clone https://github.com/pichetx/autorun-ccminer3.8.0
+git clone https://github.com/pamorn009/autorun-ccminer3.8.0
 ```
 ```
 cd autorun-ccminer3.8.0
